@@ -1,2 +1,24 @@
-<h1>Todos#index</h1>
-<p>Find me in app/views/todos/index.html.erb</p>
+<div class="container">
+  <h1>Todo List</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>タスク</th>
+        <th>アクション</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @todos.each do |todo| %>
+        <tr>
+          <td><%= todo.title %></td>
+          <td>
+            <%= link_to "編集", edit_todo_path(todo), class: "edit" %>
+            <%= link_to "削除", todo_path(todo), method: :delete %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
