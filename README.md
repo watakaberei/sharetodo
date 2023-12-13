@@ -1,24 +1,4 @@
-# README
+# Sharetodo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+業務を行うにあたって、各個人の持っている仕事の状況が分かる
+ツールがあればよいと思い、Todoを共有するアプリを作成しました。
